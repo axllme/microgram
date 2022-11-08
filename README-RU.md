@@ -1,16 +1,16 @@
 # Microgram
 
-__English__ | [Russian](README-RU.md)
+__Русский__ | [English](README.md)
 
-Microgram is easy to use and asynchronous module for working with [Telegram Bot API](https://core.telegram.org/bots/api), written on Micropython.
+Microgram - простой в использовании и асинхронный модуль для работы с [Telegram Bot API](https://core.telegram.org/bots/api), написаный Micropython.
 
-[Pypi project](https://pypi.org/project/microgram/)
+[Pypi проект](https://pypi.org/project/microgram/)
 
 ----
 
-### Example
+### Пример использования
 
-Simple example of using Microgram features
+Простой пример использования возможностей Microgram
 
 ```python
 import network
@@ -48,5 +48,5 @@ if __name__ == "__main__":
     router.message.register(handler, TextFilter("/start"))
     dp.include_router(router)
 
-    uasyncio.run(dp.start_polling(bot, text="Hi from microgram!\nHowdy?"))
+    uasyncio.run(dp.start_polling(bot, text="Привет от Microgram!\nКак дела?"))
 ```
