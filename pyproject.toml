@@ -7,7 +7,7 @@ packages = ["microgram"]
 
 [project]
 name = "microgram"
-version = "0.0.1b"
+version = "0.1b"
 authors = [
   { name="Axel", email="axll@duck.com" },
 ]
